@@ -1,5 +1,5 @@
 FROM docker.io/busybox
 USER default
-ARG MYVAR="touch testfile"
-$MYVAR
+ARG MYVAR=MYVAR_SUCCEED
+ECHO $MYVAR
 
